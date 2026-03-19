@@ -112,17 +112,72 @@ O MVP foca em registro via chat, categorização automática, metas e relatório
 
 ### 2. Explorando o Lovable na Prática
 
-Com seu PRD pronto e revisado, é hora de colocar a IA em ação. Abra o Lovable, cole seu prompt completo e peça o plano inicial do MVP do seu aplicativo. Como o plano gratuito limita você a 5 interações por dia, seja estratégico:
-- Faça perguntas diretas e construtivas, como “crie o fluxo de telas com base nas funcionalidades listadas” ou “gere uma versão resumida do plano de MVP”;
-- Priorize clareza nas instruções para aproveitar ao máximo cada resposta;
+1.Personalidade do Agente Financeiro
+Recomendo um meio-termo: um amigo que entende do assunto — tom leve e acessível, mas com credibilidade.
 
 Durante essa etapa, você pode orientar a IA para três entregas principais:
 1. Agente Financeiro: defina o comportamento e o tom de voz de um consultor financeiro pessoal, alinhado ao público e objetivo do app.
 2. Fluxo de Telas: peça à IA para gerar o fluxo conceitual de telas com base nas funcionalidades descritas no PRD, simulando a interação por conversa.
 3. Plano de MVP: solicite um resumo das 5 funcionalidades principais, dos recursos necessários e um plano de validação inicial (como medir se o app cumpre seu propósito).
 
-> [!TIP]
-> Se preferir, você pode fazer tudo com o **Copilot**. O importante é exercitar a habilidade de transformar intenções em instruções claras e testar os limites da IA como parceira criativa.
+   Aspecto	Abordagem
+Tom	Informal mas informado — usa "você", emojis moderados, sem jargão
+Celebração	Elogia conquistas ("Parabéns, você economizou 20%! 🎉")
+Alerta	Avisa sem culpa ("Seus gastos com delivery subiram — quer ver alternativas?")
+Dicas	Sempre com contexto real ("Você gasta R$350/mês em alimentação fora. Cozinhar 2x/semana economiza R$180")
+Linguagem	Curta, com negrito nos números importantes
+
+   2.Jornada do Usuário e Fluxo de Telas
+Filosofia: Chat como hub central
+O chat não é "mais uma tela" — é a tela principal. As outras telas são visualizações complementares dos dados que o usuário registra conversando.
+
+Fluxo típico do dia a dia:
+Usuário abre o app → Chat aparece
+Digita "gastei 35 no almoço" → Agente confirma com categoria
+No fim do dia, desliza para Dashboard → vê o resumo
+Agente proativamente sugere: "Você já gastou 80% da meta de alimentação"
+
+mkd
+3.# Plano de MVP - Aplicativo Conversacional de Finanças Pessoais
+
+## 🔑 Funcionalidades Essenciais
+1. **Registro de gastos via chat em linguagem natural**  
+   - Usuário informa: “Gastei R$50 no mercado” e o sistema interpreta automaticamente.  
+
+2. **Classificação automática de transações**  
+   - O app identifica a categoria (alimentação, transporte, lazer) sem esforço manual.  
+
+3. **Definição e acompanhamento de metas financeiras**  
+   - Exemplo: “Quero economizar R$200 este mês” → acompanhamento automático.  
+
+4. **Agente Financeiro com dicas personalizadas**  
+   - Recomendações simples e educativas para reduzir gastos e melhorar hábitos.  
+
+5. **Relatórios básicos e personalizados**  
+   - Gráficos claros e resumos semanais/mensais enviados pelo chat.  
+
+---
+
+## ⚙️ Recursos Técnicos Indispensáveis
+- **Motor de NLP (Processamento de Linguagem Natural)** para interpretar mensagens.  
+- **Banco de dados local (SQLite)** com opção de sincronização em nuvem (Firebase).  
+- **Framework multiplataforma (Flutter ou React Native)** para Android/iOS.  
+- **Autenticação segura** (login por e-mail ou redes sociais).  
+- **Camada de segurança** com criptografia de dados e backup automático.  
+
+---
+
+## 📊 Validação Inicial
+- **Testes com grupo piloto** de usuários iniciantes em finanças pessoais.  
+- **Métricas de uso**: frequência de registros de gastos, número de metas criadas, taxa de engajamento semanal.  
+- **Feedback qualitativo**: entrevistas rápidas sobre clareza da conversa e utilidade das recomendações.  
+- **Indicadores de sucesso**: retenção após 30 dias, satisfação média > 4 em escala de 1 a 5.  
+
+---
+
+## 📝 Conclusão
+O MVP deve entregar uma experiência simples e prática, centrada em conversas naturais.  
+Com registro automático, categorização inteligente, metas e relatórios básicos, será possível validar se o app realmente ajuda os usuários a organizar suas finanças sem complicação.
 
 ### 3. Entregando o Desafio na DIO
 
