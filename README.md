@@ -21,38 +21,94 @@ Precisamos de uma solução que permita **controlar as finanças por meio de uma
 
 ### 1. Saber o que Pedir é a Chave! Otimize seus Prompts!
 
-Antes de pedir para a IA "criar um app", é importante definir com clareza o que você quer construir e por quê. Para isso, você vai criar um **PRD (Product Requirements Document)** simplificado, uma especificação que serve como _briefing_ para a IA entender sua ideia.
-
-Um bom PRD deve descrever o problema, quem será beneficiado, as principais funcionalidades e o que você espera que a IA entregue. Use o modelo abaixo como ponto de partida e adapte conforme o seu estilo:
 
 ```txt
-# Contexto
-Quero criar um aplicativo de Organização de Finanças Pessoais que funcione por meio de conversas com o usuário.  
-A ideia é facilitar o controle financeiro de forma simples e natural, sem formulários manuais ou planilhas complexas.
+# PRD - Aplicativo Conversacional de Finanças Pessoais
 
-# Problema
-Muitas pessoas desistem de controlar seus gastos porque os apps atuais exigem muita entrada manual e pouca personalização.  
-Quero resolver isso com uma experiência de conversa e recomendações automáticas de economia.
+## 📌 Contexto
+O aplicativo de Organização de Finanças Pessoais será baseado em interações por meio de **conversas naturais**.  
+A proposta é substituir formulários e planilhas complexas por um diálogo simples e acessível, onde o usuário conversa com um **Agente Financeiro** para registrar gastos, definir metas e receber recomendações.
 
-# Público-Alvo
-Pessoas que querem começar a organizar suas finanças de forma prática e sem complicação, principalmente iniciantes.
+---
 
-# Funcionalidades-Chave
-1. Registrar gastos via chat em linguagem natural.  
-2. Classificar automaticamente as transações.  
-3. Definir e acompanhar metas financeiras.  
-4. Receber dicas de economia do “Agente Financeiro”.  
-5. Visualizar relatórios simples e personalizados.
+## 🎯 Problema
+Muitos usuários abandonam aplicativos de finanças porque exigem entradas manuais extensas e pouca personalização.  
+O objetivo é oferecer uma experiência fluida e personalizada, com registro automático e dicas práticas de economia.
 
-# Entregável da IA
-Gerar um plano de MVP com as principais telas, recursos necessários e um esboço de validação inicial.  
-Usar tom educativo e linguagem acessível, em português.
+---
+
+## 👥 Público-Alvo
+- Pessoas iniciantes no controle financeiro.  
+- Usuários que desejam praticidade sem lidar com planilhas.  
+- Jovens adultos e profissionais que buscam orientação simples para organizar gastos.  
+
+---
+
+## 🔑 Funcionalidades-Chave
+1. **Registro de gastos via chat**  
+   - Usuário informa em linguagem natural: “Gastei R$50 no mercado”.  
+   - O sistema interpreta e registra automaticamente.  
+
+2. **Classificação automática de transações**  
+   - Identificação de categoria (alimentação, transporte, lazer, etc.).  
+   - Sugestão de ajustes caso a classificação esteja incorreta.  
+
+3. **Metas financeiras**  
+   - Definição de objetivos como “economizar R$200 este mês”.  
+   - Acompanhamento automático do progresso.  
+
+4. **Agente Financeiro**  
+   - Recomendações personalizadas de economia.  
+   - Alertas quando gastos ultrapassarem limites.  
+
+5. **Relatórios simples e personalizados**  
+   - Visualização em gráficos claros e acessíveis.  
+   - Resumo semanal/mensal enviado pelo chat.  
+
+---
+
+## ⚙️ Requisitos Técnicos
+- **Plataforma**: Android e iOS (via Flutter ou React Native).  
+- **Banco de dados**: SQLite local com sincronização opcional em nuvem (Firebase).  
+- **Processamento de linguagem natural (NLP)**: para interpretar mensagens de texto.  
+- **Segurança**: criptografia de dados e autenticação segura.  
+
+---
+
+## 📊 Métricas de Sucesso
+- Taxa de retenção após 3 meses.  
+- Frequência de uso semanal.  
+- Percentual de usuários que definem metas.  
+- Feedback positivo em avaliações (nota média > 4,2).  
+
+---
+
+## 🚀 MVP (Produto Mínimo Viável)
+
+### Telas principais
+- **Tela de Conversa**: interface central para interação com o Agente Financeiro.  
+- **Dashboard simplificado**: resumo de saldo, gastos e metas.  
+- **Tela de Relatórios básicos**: gráficos simples por categoria.  
+
+### Recursos necessários
+- Motor de NLP para interpretar mensagens.  
+- Cadastro de transações com categorização automática.  
+- Definição e acompanhamento de metas.  
+- Relatórios básicos integrados ao chat.  
+
+### Validação inicial
+- Testes com grupo piloto de usuários iniciantes.  
+- Coleta de feedback sobre clareza da conversa e utilidade das recomendações.  
+- Ajustes rápidos com base em interações reais.  
+
+---
+
+## 📝 Conclusão
+Este PRD define um aplicativo inovador de finanças pessoais, centrado em **conversas naturais**.  
+O MVP foca em registro via chat, categorização automática, metas e relatórios simples, garantindo uma experiência acessível e educativa para quem deseja começar a organizar suas finanças sem complicação.
 ```
 
-Depois de preencher o modelo, use o Copilot Web para revisar e melhorar o seu prompt antes de ir ao Lovable. A ideia é lapidar o texto até que ele fique claro, direto e reflita exatamente a sua intenção.
 
-> [!TIP]
-> Pense no PRD/Prompt como “o briefing que a IA precisa para entender sua vibe”. Portanto, quanto mais claro e intencional for o texto, mais próximas do ideal serão as respostas da IA.
 
 ### 2. Explorando o Lovable na Prática
 
