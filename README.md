@@ -181,16 +181,30 @@ Com registro automático, categorização inteligente, metas e relatórios bási
 
 ### 3. Entregando o Desafio na DIO
 
-Finalize seu projeto criando um **repositório no GitHub** (pode ser um **fork** deste).  
-No README do seu repositório, inclua:
+# 📌 Resumo do App
+O aplicativo é um **organizador de finanças pessoais baseado em conversas**.  
+Em vez de formulários ou planilhas, o usuário interage com um **Agente Financeiro virtual** que entende linguagem natural, registra gastos automaticamente, sugere categorias, ajuda a definir metas e oferece dicas de economia.  
+O app também gera relatórios simples e personalizados, tornando o controle financeiro mais acessível e prático para iniciantes.
 
-- Seu **prompt final** (PRD);  
-- Prints ou pequenos vídeos das interações com a IA;  
-- Um resumo do que o seu **App de Finanças Pessoais** faz;  
-- Uma breve **reflexão sobre o processo**:
-  - O que funcionou bem?  
-  - O que não funcionou como o esperado?  
-  - O que aprendeu sobre conversar com IAs?
+---
+
+# 🔎 Reflexão sobre o Processo
+
+## ✅ O que funcionou bem
+- Clareza da proposta: a ideia de usar conversas como interface central se destacou e trouxe simplicidade.  
+- Definição das funcionalidades essenciais: conseguimos priorizar cinco pontos-chave para o MVP sem dispersar esforços.  
+- Tom educativo e acessível: o PRD e o plano de MVP foram estruturados em linguagem clara, alinhada ao público-alvo.  
+- Visão de evolução: já surgiram ideias de expansão futura (integração com bancos, gamificação, relatórios avançados).
+
+## ⚠️ O que não funcionou como esperado
+- Detalhamento do fluxo de interação: ainda falta um esboço visual ou narrativo mais completo da jornada do usuário.  
+- Validação prática: o plano de testes piloto está definido, mas ainda não há métricas específicas de engajamento conversacional (ex.: tempo médio de interação, satisfação com respostas do agente).  
+- Personalização profunda: o Agente Financeiro foi descrito, mas o tom de voz e estilo de comunicação ainda precisam ser ajustados para diferentes perfis de usuários.
+
+---
+
+# 📝 Conclusão
+Esse balanço mostra que já existe uma base sólida para o MVP, mas o próximo passo é **refinar a experiência conversacional** e pensar em como medir a satisfação do usuário além das métricas tradicionais.
 
 > [!TIP]
 > Publique seu repositório e compartilhe o link na plataforma da DIO! Sua entrega é a prova de que você domina o raciocínio de Vibe Coding, mesmo sem escrever uma única linha de código.
